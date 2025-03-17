@@ -1,11 +1,8 @@
 # 🎧 **Spotify Data - Taylor vs. Beyoncé** 
 
-📊 **Dashboard interativo** criado com **Streamlit**, que analisa a popularidade da discografia de **Taylor Swift** e **Beyoncé** usando a **API do Spotify**.  
+📊 **Dashboard interativo** criado com **Streamlit**, que analisa a popularidade da discografia de **Taylor Swift** e **Beyoncé** usando a **API do Spotify**.
 
-![Streamlit Badge](https://img.shields.io/badge/Streamlit-Deployed-red?logo=streamlit) 
-![Python Badge](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python) 
-![License Badge](https://img.shields.io/badge/license-MIT-green)
-
+Acesse aqui: [queensofpop.streamlit.app/](https://queensofpop.streamlit.app/)
 
 
 ## 🎯 **Objetivo**  
@@ -23,7 +20,7 @@ O projeto visa criar uma **análise comparativa da popularidade** de **Taylor Sw
 - Comparação de popularidade entre músicas  
 - Comparação da evolução de popularidade entre as artistas
 
-## 📍 **Análises Adicionais**  
+## 💭 **Análises Futuras**  
 
 - Matriz de correlação por características
 - Análise de sentimento das letras
