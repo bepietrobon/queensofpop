@@ -312,4 +312,9 @@ elif analise == "📈 Evolução":
     
     # Para a tabela, ordena de forma decrescente por Popularidade
     evolucao_tabela = evolucao_filtrado.sort_values("Popularidade", ascending=False)
+    
+    # Arredonda a coluna de Popularidade para 2 casas decimais
+    evolucao_tabela["Popularidade"] = evolucao_tabela["Popularidade"].round(2)
+    
     st.write(evolucao_tabela.to_html(index=False, escape=False), unsafe_allow_html=True)
+
