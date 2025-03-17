@@ -293,6 +293,9 @@ elif analise == "📈 Evolução":
     # Filtra dados apenas depois de 2017
     evolucao_filtrado = evolucao_df[evolucao_df["Ano"] > 2017].copy()
     
+    # Remove a dimensão "Álbum" agrupando por Ano e Artista (agregando a popularidade)
+    evolucao_filtrado = evolucao_filtrado.groupby(["Ano", "Artista"], as_index=False).agg({"Popularidade": "mean"})
+    
     # Para o gráfico, ordena por ano (crescente)
     evolucao_chart = evolucao_filtrado.sort_values("Ano")
     fig = px.line(
