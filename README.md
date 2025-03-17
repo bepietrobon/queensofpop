@@ -1,4 +1,4 @@
-# 🎧 **Spotify Data - Taylor vs. Beyoncé** 
+# 🎧 **Streamlit - Taylor vs. Beyoncé** 
 
 📊 **Dashboard interativo** criado com **Streamlit**, que analisa a popularidade da discografia de **Taylor Swift** e **Beyoncé** usando a **API do Spotify**.
 
